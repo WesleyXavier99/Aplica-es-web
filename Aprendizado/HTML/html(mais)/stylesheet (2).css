@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    clear:both;
+}
+aside {
+    float: left;
+    padding: 15px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+aside {
+    width: 25%;
+}
+section {
+    width: 75%;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside li {
+     font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: #EEC900;
+}
+aside li:hover {
+    background-color: #EEC900;
+    color: black; 
+}
+.img{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: ;
+  padding: 10px;
+}
+.grid-item {
+  background-color: ;
+  border: ;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+    }
+
+img {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+img: hover {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #EEC900;
+    text-align: right;
+    font-size: 60px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color:black ;
+    text-align: center;
+    font-size: 70px;
+  }
+footer {
+    background-color: black;
+    color: #EEC900;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+
+}
+a:link, avisited {
+    text-decoration: none;
+}
+p {
+  font-family: 'Roboto', sans-serif;  
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+
+
+
+
+
+
+
+<aside>
+    <ul>
+      <a href="index2(EletroCasa).html"><li>Home</li></a>
+      <a href="Ofertas(Eletrocasa).html"><li>Ofertas</li></a>
+      <a href="Nossas lojas.html"><li>Nossas lojas</li></a>
+      <a href="Eletrodomésticos (Eletrocasa).html"><li>Eletrodomésticos</li></a>
+      <a href="Eletrocasa(móveis).html"><li>Móveis</li></a>
+    </ul>
+  </aside>

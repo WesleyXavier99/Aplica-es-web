@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<title>Trabalho composição de nota AV1</title>
+	<style>
+		body{
+			font-family: 'Questrial', sans-serif;
+			font-size: 20px;
+		}
+		.cabecalho{
+			margin-bottom: 60px;
+		}
+		.logo{
+			float: left;
+			padding-right: 50px;
+			width: 80px;
+			height: 80px;
+		}
+		.paragrafos{
+			float: right;
+			margin-right: 300px;
+		}
+		img{
+			width: 200px;
+			height: 200px;
+			border-radius: 25%;
+		}
+
+		h1{
+			text-align: center;
+		}
+		h3{
+			text-align: center;
+		}
+
+		table,tr,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding:5px;
+		}
+
+		button {
+			font-family:  'Questrial', sans-serif;
+		}
+
+		section{
+			border-radius: 10%;
+			border:1px solid black;
+			margin: 10px;
+		}
+
+		a:hover{
+			color: red;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<header>
+	<div class="cabecalho">
+			<img class="logo" src="images.png">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Artesãos</a></li>
+			</ul>
+
+		</div>
+	</header><hr>
+
+	<h1>José Dias</h1>
+	<h3>Pintura em Tecidos</h3>
+
+	<section>
+		<figure>
+			<figcaption>Pano de prato pequeno</figcaption>
+			<img src="Toalhas Pintadas à Mão_ 6 Temas Para Você se Inspirar.png" alt="Pequeno Príncipe">
+			<p class="paragrafos">Preço: R$6,00</p>
+		</figure>
+	</section>
+	
+
+	<section>
+		<figure>
+			<figcaption>Pano de prato grande</figcaption>
+			<img src="Como Fazer Pintura com Giz de Cera - Técnica Simples que Você Precisa Aprender!.png" alt="Pano de prato Girafa">
+			<p class="paragrafos">Preço: R$8,00</p>
+		</figure>
+	</section>
+
+	<section>
+		<figure>
+			<figcaption>Pano de prato personalizado </figcaption>
+			<img src="5defce8ebd764bd683f495fe7934f464.jpg" alt="Pano de prato Flores amarelas">
+			<p class="paragrafos">Preço: R$10,00</p>
+		</figure>
+	</section>
+
+	<section>
+		<figure>
+			<figcaption>Bolsa grande</figcaption>
+			<img src="ecobag-pintura-tecido.jpg" alt="Bolsa de mão Corujas">
+			<p class="paragrafos">Preço: R$10,00</p>
+		</figure>
+	</section>
+
+	<section>
+		<figure>
+			<figcaption>Bolsa personalizada</figcaption>
+			<img src="d1d027256fc4b23a9d165e41719c2946.jpg" alt="Bolsa de mão Corujas">
+			<p class="paragrafos">Preço: R$12,00</p>
+		</figure>
+	</section>
+
+	<table>Panos de Prato
+		<tr>
+			<th>pequenos</th>
+			<th>grandes</th>
+			<th>Personalizados</th>
+		</tr>
+		<tr>
+			<td>R$6,00</td>
+			<td>R$8,00</td>
+			<td>R$10,00</td>
+		</tr>
+	</table>
+
+	<table>Bolsas
+		<tr>
+			<th>pequenas</th>
+			<th>grandes</th>
+			<th>Personalizados</th>
+		</tr>
+		<tr>
+			<td>R$8,00</td>
+			<td>R$10,00</td>
+			<td>R$12,00</td>
+		</tr>
+	</table><br><br>
+
+	<form><h3>Formulario para Compras Online</h3>
+		<fieldset>
+			<label for="name">Nome completo: </label>
+				<input type="texto" name="nomeusuario" size="40"><br><br>
+				<label>Telefone p/ contato:</label>
+				<input type="text" name="telcontato"><br><br>
+				<label>Email:</label>
+				<input type="text" name="email"><br><br>
+				<label for="endereco">Endereço: </label>
+				<input type="texto" name="enderecousuario" size="65">
+				<label>Complemento</label>
+				<input type="texto" name="complementoendereco"><br><br>
+
+				Produto: <input type="radio" name="produto" value="panodeprato">Pano de prato
+				<input type="radio" name="produto" value="bolsademao">Bolsa<br><br>
+				Tamanho: <input type="radio" name="produto" value="pequeno">pequeno
+				<input type="radio" name="produto" value="grande">grande
+				<input type="radio" name="produto" value="personalizado">personalizado<br><br>
+				<label for="comentario">Digite a descrição do produto desejado</label>
+				<br>
+				<textarea rows="5" cols="25"></textarea>
+				<br>
+				<button type="reset" value="reset">RESET</button>
+				<button type="submit" value="submit">ENVIAR</button>
+
+		</fieldset>
+	</form>
+
+	<hr>
+	<footer>
+		<p>&copy;Artesão José Dias</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<title>EletroHome</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo_projeto.css">
+	<script type="text/javascript" src="../script/script1.js"></script>
+</head>
+<body>
+	<section>
+		<header>
+			<h1>EletroHome</h1>
+			<figure>
+				<img src="..\Imagens\logo.png" id="logotipo">
+			</figure>
+			<nav>
+				<ul>
+					<li><a href="Index.html" >Home</a></li>
+					<li><a href="NossasLojas.html">Sobre nós</a></li>
+					<li><a href="FaleConosco.html">Fale conosco</a></li>
+				</ul>
+			</nav>
+
+			<div class="fixar">
+				<img src="..\Imagens\instagram_icone.png" height="50" width="50"><br>
+				<img src="..\Imagens\facebook_icone.png" height="50" width="50"><br>
+				<img src="..\Imagens\twitter_icone.png" height="50" width="50"><br>
+				<img src="..\Imagens\gmail_icone.png" height="50" width="50">
+			</div>
+		</header>
+		<hr>
+		
+		<h1>Fale Conosco</h1>
+		
+		<ul>Este é seu canal de relacionamento com a EletroHome. Com o formulário abaixo você poderá:
+			<li>Efetuar reclamação</li>
+			<li>Fazer sugestões</li>
+			<li>Tirar suas dúvidas</li>
+		</ul>
+
+		<form>
+			<fieldset>
+				<label for="name">Nome completo: </label>
+				<input type="texto" name="nomeusuario" size="40"><br><br>
+				<label for="email">Email: <label>
+				<input type="email" name="email" size="40"><br><br>
+				<label>Telefone:</label>
+				<input type="texto" name="telcontato"><br><br>
+				<label for="comentario">Digite seu comentário, crítica, sugestão ou tire dúvidas:</label>
+				<br>
+				<textarea rows="5" cols="25"></textarea>
+				<br>
+				<button type="reset" value="reset" >APAGAR</button>
+				<button type="button" value="submit" onclick="verificar()">ENVIAR</button>
+				<p id="resp"></p>
+			</fieldset>
+		</form>
+
+		<hr>
+
+		<footer>
+			<h4>Todos os direitos reservados<br>© 2020 Faeterj-Rio<br>Wesley Nathan Xavier da Silva<br></h4>
+		</footer>
+	</section>
+</body>
+</html>

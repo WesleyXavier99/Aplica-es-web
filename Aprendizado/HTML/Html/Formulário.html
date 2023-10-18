@@ -1,0 +1,76 @@
+<html>
+<title>Formulário
+</title>
+<header>
+<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput-1.1.4.pack.js"/></script>
+<meta charset="utf-8">Formulário
+</header>
+<body>
+<form name="MeuForm" method="post" id="Formulario">
+	<div class="box">
+		<h1>Formulario de contato</h1>
+	<label>
+			<span> Nome Completo </span>
+			<input type="text" class="input_text" name="nome" id="name"/>
+	</label><br><br>
+	<label>
+			<span> Email </span>
+			<input type="text" class="input_text" name="email" id="email"/>
+	</label><br><br>
+		<label>
+			<span> Telefone </span>
+			<input type="text" class="input_text" name="tel" id="tel"/>
+	</label><br><br>
+	<label>
+	
+			<span> cpf </span>
+			<input type="text" class="input_text" name="Cpf" id="cpf"/>
+	</label><br><br>
+	<label>
+	
+			<span> Assunto </span>
+			<input type="text" class="input_text" name="assunto" id="subject"/>
+	</label><br><br>
+		<label>
+			<span> Mensagem </span>
+			<textarea class="message" name="feedback" id="feedback"></textarea>
+			<input type="button" class="button" value="enviar"/>
+	</label><br><br>
+	</form>
+			<span>Lista de Lzer</span><br>
+		<input type="checkbox" name="lazer 1" value="filmes" checked>Esportes<br>
+		<input type="checkbox" name="lazer 2" value="Cinema" checked>Cinema<br>
+		<input type="checkbox" name="lazer 3" value="Livros" checked>Livros<br>
+		<input type="checkbox" name="lazer 4" value="Música" checked>Música<br>
+		
+		<input type="radio" name="residencia" value="sim">sim<br>
+		<input type="radio" name="residencia" value="não">não<br>
+	<select name="hobbies" size="4" multiple>
+		<option value=”filme”> filmes</option>
+		<option value=”musica”> Música</option>
+		<option value=”Esportes”>Esportes</option>
+		<option value=”Livros”>Livros</option>
+		<option value=”Viajar”>Viajar</option>
+		<option value=”Desenhar”>Desenhar</option>
+	</select><br><br>
+	<textarea name="message" style=width:"50px";height:"50px">
+	</textarea>
+		<button type="button" onclick="alert('mensagem!')">ok</button>
+	</div>
+	<div class="button">
+	<input type="button" class="button" value="Futebol">
+	</div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#cpf").mask("999.999.999-99");
+	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#tel").mask("(99)9 9999-9999");
+	});
+</script>
+</html>

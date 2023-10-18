@@ -1,0 +1,10 @@
+Atividades:
+1) Estilize as imagens que existem na página. Não se esqueça de ajustar os tamanhos também;
+2) Crie estilos para o cabeçalho e o rodapé da página;
+3) Estilize agora o conteúdo da página. Não se esqueça de criar as classes já indicadas;
+4) Altere o estilo das tags <em>;
+5) Coloque o texto "região sul do Brasil" numa cor diferente do restante do texto;
+6) Coloque a imagem do logo ao lado da navegação;
+7) Altere o comportamento do link usando pseudoclasses no CSS;
+8) Altere alguma característica de Box Model na figura da família;
+9) Identifique pelo menos uma seção do código onde a herança CSS foi aplicada.

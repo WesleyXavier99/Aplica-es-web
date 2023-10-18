@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>exercicio 19//10</title>
+	<style>
+		figure{
+			text-align: center;
+		}
+		img{
+			border-radius: 25px;
+			border: solid 1px black;
+		}
+	</style>
+</head>
+<body>
+
+	<figure id="campo">
+		<figcaption>Luz apagada</figcaption>
+		<img id="luzes" src="lampada_apagada.jpg" alt="Lâmpada" onmouseover="change()" onmouseout="change2()">
+	</figure>
+
+
+	<script>
+		var doc = document.getElementById("campo");
+
+		doc.style.backgroundColor = "blue";
+		doc.style.marginLeft = "350px";
+		doc.style.marginRight = "350px";
+		doc.style.fontSize = "30px";
+
+		function change() {
+			var imagem = document.getElementById("luzes");
+			imagem.src = "lampada_acesa.jpg";
+		}
+
+		function change2() {
+			var imagem = document.getElementById("luzes");
+			imagem.src = "lampada_apagada.jpg";
+		}
+		
+	</script>
+</body>
+</html>

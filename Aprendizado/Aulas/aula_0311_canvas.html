@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aprendendo CANVAS</title>
+	<style>
+		#meuCanvas{
+			border:	red solid 10px;
+		}
+	</style>
+	
+</head>
+<body>
+	<h1>Aprendendo CANVAS</h1>
+
+	<!--abrindo a caixa do canvas-->
+	<canvas id="meuCanvas" width="500px" height="300px">
+		<!--texto alternativo, caso o canvas não seja carregado pelo navegador-->
+		Seu navegador não suporta o camvas
+	</canvas>
+
+	<script>
+		/*estabelecer ctxo do canvas*/
+		var cv = document.getElementById('meuCanvas');//pegando o id do canvas
+		var ctx = cv.getContext("2d");//definindo o contexto(2d ou 3d)
+
+		/*preenche o espaço todo*/
+		ctx.fillStyle = "red";
+		ctx.fillRect(100,50,75,100);
+		ctx.fillStyle = "yellow";
+		ctx.fillRect(150,75,75,75);
+		ctx.fillStyle = "blue";
+		ctx.fillRect(200,100,75,50);
+
+
+
+		//parei em 41 minutos
+		
+		/*limpa um espaço todo*/
+		//ctx.clearRect(200,125,100,50);
+		/*cria uma caixa no espaço*/
+		//ctx.strokeRect(225,140,50,25);
+		
+	</script>
+</body>
+</html>

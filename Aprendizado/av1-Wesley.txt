@@ -1,0 +1,18 @@
+Wesley Nathan Xavier da Silva
+
+1-Primeiramente tem que ser feito o registro de um domínio. Depois vc tem que fornecer pro servidor de hospedagem um upload por FTP de todos arquivos que compõem sua página.
+
+2- h2 ficará na cor azul e herdará fonte e tamanho determinado pro body;
+li herdará a fonte e tamanho do estilo determinado pro body
+
+3-resposta:
+<style>
+			h2 { color: blue; }
+			p{ color: blue;}
+			th,td,tr{
+				border: 1px solid black;
+			}
+		</style>
+Adicionei a estilização de cor para a tag <p> em azul;
+Adicionei borda pra todas partes da tabela.
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<meta charset="utf-8">
+	</head>
+	<body onload="alert('Bem-vindo')">
+		<div id='lugar' onmouseover="doc.innerHTML='Obrigado'" onmouseout="doc.innerHTML='Passe o mouse em mim'">Modificando o documento pelo JavaScript</div>
+		<script type="text/javascript">
+		{
+			var doc = document.getElementById('lugar');
+			var nome;
+			var idade;
+			var gasto_diario;
+			var tempo_estudo;
+			var tempo_livre;
+			var razao;
+
+			doc.style.color = "red";
+			doc.style.backgroundColor = "blue";
+			doc.style.textAlign = "center";
+			doc.style.padding = "100px";
+			doc.style.fontSize = "30px";
+			doc.style.marginLeft = "200px";
+			doc.style.marginRight = "200px";
+			/*
+			window.alert("Olá, Bom dia!");
+			nome = window.prompt("Qual o seu nome ?");
+			idade =Number(window.prompt("Qual sua idade ?"));
+			gasto_diario = Number.parseFloat(window.prompt("Qual o seu gasto diario com locomoção ?"));
+			tempo_estudo = Number.parseFloat(window.prompt("Qual o seu tempo semanal de estudo extraclasse"));
+			tempo_livre = Number.parseFloat(window.prompt("Qual seu tempo semanal livre ?"));
+			
+			razao = (tempo_livre * 100) / (tempo_livre + tempo_estudo);
+
+
+			doc.innerHTML = "<p>Nome: "+nome+"</p>";
+			doc.innerHTML = doc.innerHTML + "<p>Idade: "+idade+"</p>";
+			doc.innerHTML = doc.innerHTML + "<p>Gasto diario:" +gasto_diario+"</p>";
+			doc.innerHTML = doc.innerHTML + "<p>Tempo_estudo:" +tempo_estudo+"</p>";
+			doc.innerHTML = doc.innerHTML + "<p>Tempo_livre:" +tempo_livre+"</p>";
+			doc.innerHTML = doc.innerHTML + "<p>Razao:" +razao.toFixed(2)+"%</p>";
+*/
+			
+
+
+		}
+	</script>
+	</body>
+</html>

@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>Cine Faeterj</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+		<style>
+			table, tr, th, td {
+				border: 2px solid orange;
+				font-family: 'Quicksand', sans-serif;
+			}
+			body,form,fieldset {
+				color:red;background:black;
+				font-family: 'Quicksand', sans-serif;
+			}
+			h1,caption {
+				font-family: 'Quicksand', sans-serif;
+			}
+			button,textarea,input {
+				background-color: orange;
+				border: white;
+			}
+			.bordafield {
+				border : 2px solid orange;
+			}
+			
+			</style>
+	</head>
+
+	<body>
+		<h1>Programação da semana Cine Faeterj</h1>
+		<table>
+		<caption>Tabela de Filmes</caption>
+			<tr>
+				<th>Filmes</th>
+				<th>Sessões</th>
+				<th>Valor do ingresso</th>
+				<th>Salas</th>
+			</tr>
+			
+			<tr>
+				<td>O Homem Invisível</td>
+				<td>14h/16h/18</td>
+				<td>R$ 15,00</td>
+				<td>sala 01</td>
+			</tr>
+			
+			<tr>
+				<td>Sonic</td>
+				<td>14h/16h/18</td>
+				<td>R$ 15,00</td>
+				<td>sala 02</td>
+			</tr>
+			
+			<tr>
+				<td>Aves de Rapina</td>
+				<td>14h/16h/18</td>
+				<td>R$ 15,00</td>
+				<td>sala 03</td>
+			</tr>
+			
+			<tr>
+				<td>Bad Boys 3</td>
+				<td>14h/16h/18</td>
+				<td>R$ 15,00</td>
+				<td>sala 04</td>
+			</tr>
+			
+		</table>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/OEyTTpP_Mdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/zQEjE_M2Esw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/5-Ddj9Kmcyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/oqvlw6xwTr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		
+		<form>
+		<caption>Formulário Cinema</caption>
+			<fieldset class="bordafield" name="identificação" >
+				<legend>Identificação</legend>
+				<label for="nome">Nome : </label>
+				<input type="texto" name= "nomeusurario" size="40">
+				<br><br>
+				<label for="idade">Idade : </label>
+				<input type="number" name="idadeususario" size="40">
+				<br><br>
+				<label for= "email">Email : </label>
+				<input type="texto" name="email">
+				<br><br>
+				<label for= "sexo">Sexo : </label>
+				<input type="radio" name="sexo" value="masculino">masculino
+				<input type="radio" name="sexo" value="feminino">feminino
+				<input type="radio" name="sexo" value="outros">outros
+				<br><br>
+				<label></label>
+
+
+			</fieldset>
+			<fieldset class="bordafield" name="Estilo de filme">
+				<legend>Estilos de Filme</legend>
+				<input type="checkbox" name="estilo" value="ação">Ação
+				<input type="checkbox" name="estilo" value="aventura">Aventura
+				<input type="checkbox" name="estilo" value="terror">Terror
+				<br>
+				<input type="checkbox" name="estilo" value="suspense">Suspense
+				<input type="checkbox" name="estilo" value="comédia">Comédia
+				<input type="checkbox" name="estilo" value="animação">Animação
+				<br>				
+				<input type="checkbox" name="estilo" value="romance">Romance
+				<input type="checkbox" name="estilo" value="drama">Drama
+				<input type="checkbox" name="estilo" value="ficção">Ficção
+				<br>				
+				<input type="checkbox" name="estilo" value="documentario">Documentário
+				<input type="checkbox" name="estilo" value="musical">Musical
+			</fieldset>
+			
+			<fieldset class="bordafield" name="experiência">
+			<legend>Experiência no Cinema</legend>
+			<label for="Ambiente/Sala">Ambiente/Sala : </label>
+			<br>
+			<input type="radio" name="avaliacao" value="ruim">Ruim
+			<input type="radio" name="avaliacao" value="regular">Regular
+			<input type="radio" name="avaliacao" value="bom">Bom
+			<input type="radio" name="avaliacao" value="otimo">Ótimo
+			<br><br>
+			<label for="comentario">Comentário/Sugestão: </label>
+			<br>
+			<textarea rows="5" cols="25"></textarea>
+			<br><br>
+			<label for="escolha">Deseja receber sugestões de filmes?</label>
+			<input type="radio" name="escolha" value="sim">Sim
+			<input type="radio" name="escolha" value="nao">Não
+			<br><br>
+			<button type="submit" value="submit">Enviar</button>
+			<button type="reset" value="reset">Reiniciar</button>
+			</fieldset>	
+		
+</form>
+		
+		
+		<footer>All right reserved</footer>
+	</body>
+	
+	
+</html>

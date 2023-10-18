@@ -1,0 +1,14 @@
+Orientações Gerais:
+- Atividade Individual;
+- Postagem deve ser feita no Google Classroom em Atividades até dia 21/07 às 12h;
+- Documento deve conter nome e matrícula do aluno;
+
+
+Usando o arquivo html e as imagens fornecidas, implemente o que se pede:
+
+1) Edite o texto base, o cabeçalho e o rodapé da página. Faça alteração de estilo de fonte e cor, pelo menos. Pode-se inserir elementos estruturais e de estilo para organizar a apresentação. Obrigatório uso de CSS interno;
+2) No lugar do texto "(inserir tabela de produtos e preços)" insira uma tabela que apresente os itens indicados. Além do texto descritivo, deve-se colocar figuras que identifiquem os produtos (imagens já disponíveis);
+3) No lugar do texto "(campos obrigatórios são: nome completo, endereço, telefone de contato, checkbox de produtos, campo de mensagem para descrever quantidades e montagem, opção para delivery ou retirada/consumo em loja)" insira um formulário que apresente, no mínimo, os itens indicados;
+4) Acrescente um fundo de página. Na pasta "imagens" há uma sugestão, mas você pode usar a que achar mais interessante para a página que está criando;
+5) Imagine agora que a padaria ganhou notoriedade e você precisa aumentar o número de páginas para colocar serviços diferentes. Qual seria a sua alteração quanto à navegação e ao estilo? Justifique sua resposta.
+Em relação a navegação, eu faria um menu linkando outras paginas. para a estilização o ideal seria a utilização de um CSS externo para que as aplicações e alterações de estilo possam atingir todas paginas.

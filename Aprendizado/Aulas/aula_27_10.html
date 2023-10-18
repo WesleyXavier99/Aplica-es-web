@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercicio_Aula26/10</title>
+</head>
+<body>
+
+	<form id="formulario">
+		<label>Digite 3 numeros</label><br><br>
+		<input type="number" name="num1" id="num1"><br><br>
+		<input type="number" name="num2" id="num2"><br><br>
+		<input type="number" name="num3" id="num3"><br><br>
+		<input type="button" name="maior" value="maior" id="botao" onclick="MaiorNum(num1,num2,num3);"><br>
+	</form>
+	<p id="resp"></p>
+
+	<script>
+		var resp = document.getElementById('resp');
+		var form = document.getElementById('formulario');
+
+		form.style.backgroundColor = "blue";
+		form.style.padding = "25px";
+		form.style.textAlign = "center";
+		form.style.borderRadius = "20px";
+
+		resp.style.backgroundColor = "red";
+		resp.style.borderRadius = "20px";
+		resp.style.textAlign = "center";
+
+		function MaiorNum(num1,num2,num3){
+			
+			var res = document.getElementById('resp');
+
+
+			num1 = Number(num1.value);
+			num2 = Number(num2.value);
+			num3 = Number(num3.value);
+
+			if (num1>num2&&num1>num3) {
+				window.alert("O resultado é : "+num1);
+				res.innerHTML = `resultado: ${num1}`;
+			}else if (num2>num1&&num2>num3) {
+				window.alert("O resultado é : "+num2);
+				res.innerHTML = `resultado: ${num2}`;
+			}else{
+				window.alert("O resultado é : "+num3);
+				res.innerHTML = `resultado: ${num3}`;
+			}
+		}
+	</script>
+</body>
+</html>
